@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #1c392e;
+  --color-secondary: #f8d357;
+  --color-active: #c4e93a;
+  --color-inactive: #eaf4e7;
+  --color-headline-text: #111827;
+  --color-body-text: #374151;
+  --color-message-inactive: #dc2626;
+  --color-message-active: #29b759;
+
+  --font-poppins: "poppins";
+  --font-inter: "inter";
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+.heading-h1{
+  font-weight: medium;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2px;
+}
