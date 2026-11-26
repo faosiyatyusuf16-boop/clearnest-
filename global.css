@@ -39,6 +39,13 @@ body {
   font-family: var(--font-poppins);
 }
 
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
 .heading-h1 {
   font-weight: medium;
   font-size: 60px;
