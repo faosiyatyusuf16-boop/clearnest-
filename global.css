@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
+:root { 
   --color-primary: #1c392e;
   --neutral-white: #ffffff;
   --color-secondary: #f8d357;
@@ -52,3 +52,4 @@ body {
   line-height: 26px;
   color: var(--neutral-white);
 }
+

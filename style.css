@@ -15,6 +15,30 @@ header {
   align-items: center;
 }
 
-.header-container span{
-    
+#our-cleaning-process {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding: 48px 16px;
+  background-color: var(--color-inactive);
 }
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
