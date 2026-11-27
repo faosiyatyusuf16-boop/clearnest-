@@ -6,7 +6,7 @@
 
 :root {
   --color-primary: #1c392e;
-  --neutral-white: #ffffff;
+  --color-neutral-white: #ffffff;
   --color-secondary: #f8d357;
   --color-active: #c4e93a;
   --color-inactive: #eaf4e7;
@@ -14,6 +14,7 @@
   --color-body-text: #374151;
   --color-message-inactive: #dc2626;
   --color-message-active: #29b759;
+
   --font-poppins: "poppins";
   --font-inter: "inter";
   --font-size-h1: 32px;
@@ -28,6 +29,7 @@
   --font-text-primary: 16px;
   --font-text-secondary: 18px;
   --font-text-caption: 12px;
+
   --line-height-md: 42px;
   --line-height-body-18-regular: 30px;
   --line-height-body-18-semibold: 28px;
@@ -60,4 +62,25 @@ img {
   font-size: 18px;
   line-height: 26px;
   color: var(--neutral-white);
+}
+
+header {
+  padding: 20px 32px;
+  background-color: var(--color-primary);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo span {
+  color: var(--color-neutral-white);
 }
