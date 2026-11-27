@@ -61,3 +61,24 @@ img {
   line-height: 26px;
   color: var(--neutral-white);
 }
+
+header {
+  padding: 20px 32px;
+  background-color: var(--color-primary);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo span {
+  color: var(--color-neutral-white);
+}
