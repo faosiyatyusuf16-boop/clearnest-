@@ -32,7 +32,9 @@
 
   --line-height-md: 42px;
   --line-height-body-18-regular: 30px;
+  --line-height-body-18-semibold: 28px;
   --line-height-body-16-regular: 24px;
+  --line-height-body-14-regular: 20px;
   --line-height-body-12-regular: 18px;
   --line-height-body-16-medium: 24px;
 }
@@ -59,7 +61,7 @@ img {
   font-weight: var(--font-weight-semibold);
   font-size: 18px;
   line-height: 26px;
-  color: var(--neutral-white);
+  color: var(--color-neutral-white);
 }
 
 header {
@@ -77,8 +79,4 @@ header {
   display: flex;
   gap: 8px;
   align-items: center;
-}
-
-.logo span {
-  color: var(--color-neutral-white);
 }
