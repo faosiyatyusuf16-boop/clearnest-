@@ -61,7 +61,7 @@ img {
   font-weight: var(--font-weight-semibold);
   font-size: 18px;
   line-height: 26px;
-  color: var(--neutral-white);
+  color: var(--color-neutral-white);
 }
 
 header {
@@ -79,8 +79,4 @@ header {
   display: flex;
   gap: 8px;
   align-items: center;
-}
-
-.logo span {
-  color: var(--color-neutral-white);
 }
